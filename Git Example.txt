@@ -1,0 +1,22 @@
+git  demo:
+-------------
+git help: which is used to helpdesk like this
+git init: whic is used  to initilize the git repository(/.git)
+git status: it is used to showing working tree status.
+git add: this command is used to add files to staging area
+
+         syntax: git add <file-name>
+		 git add --a      => to add all files at a time
+
+git rm : this is used for un-staged files
+
+         syntax: git rm --cached <file-name>
+                 git rm --cached *   => to add all un-staged files
+
+git commit : this command is used to commit our change to git local repository
+
+     syntax: git commit  -m 'commit -message'
+
+-------------------------------------------------------------
+git remote add origin <repo-url>    => this requied only one time
+git push -u origin master           => this is used to move change from local repository
